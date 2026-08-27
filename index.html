@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dheeraj B — Backend Software Engineer</title>
+<meta name="description" content="Dheeraj B — Backend Software Engineer specializing in Go, Java, and distributed systems.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scanline" aria-hidden="true"></div>
+
+<header class="topbar">
+  <div class="topbar__inner">
+    <a href="#top" class="brand">dheeraj<span class="brand__dot">.</span>b</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#experience" data-nav>experience</a>
+      <a href="#projects" data-nav>projects</a>
+      <a href="#skills" data-nav>skills</a>
+      <a href="#education" data-nav>education</a>
+      <a href="#contact" data-nav>contact</a>
+    </nav>
+    <a class="topbar__cta" href="mailto:dheeraj.backend@yahoo.com">get in touch</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO / STATUS DASHBOARD -->
+  <section class="hero" aria-label="Introduction">
+    <div class="hero__grid">
+
+      <div class="hero__intro">
+        <p class="boot-line" id="bootLine" aria-hidden="true"></p>
+        <div class="status-chip">
+          <span class="pulse-dot" aria-hidden="true"></span>
+          <span class="mono">status: operational</span>
+        </div>
+        <h1 class="hero__name">Dheeraj B</h1>
+        <p class="hero__role">Backend Software Engineer — Go · Java · Distributed Systems</p>
+        <p class="hero__summary">
+          I build backend services that stay up under load. Five years designing microservices,
+          event-driven pipelines, and cloud infrastructure that hold at 100K+ daily transactions —
+          then cutting cost and latency once they're live.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#experience">view experience</a>
+          <a class="btn btn--ghost" href="mailto:dheeraj.backend@yahoo.com">dheeraj.backend@yahoo.com</a>
+        </div>
+      </div>
+
+      <div class="hero__panel">
+        <div class="panel-frame">
+          <div class="panel-frame__header">
+            <span class="mono panel-frame__label">service_metrics.log</span>
+            <span class="panel-frame__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+          </div>
+          <div class="photo-wrap">
+            <img src="assets/profile.png" alt="Portrait of Dheeraj B" class="photo">
+          </div>
+          <ul class="metric-list">
+            <li class="metric">
+              <span class="metric__label">p95 latency</span>
+              <span class="metric__value mono"><span class="metric__was">280ms</span> → <span class="metric__now">&lt;150ms</span></span>
+            </li>
+            <li class="metric">
+              <span class="metric__label">infra cost</span>
+              <span class="metric__value mono metric__now">−20%</span>
+            </li>
+            <li class="metric">
+              <span class="metric__label">daily transactions</span>
+              <span class="metric__value mono">100K+</span>
+            </li>
+            <li class="metric">
+              <span class="metric__label">years in production</span>
+              <span class="metric__value mono">5</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience" aria-label="Experience">
+    <div class="section__head">
+      <span class="eyebrow mono">// deploy_log</span>
+      <h2>Experience</h2>
+    </div>
+
+    <ol class="release-log">
+
+      <li class="release">
+        <div class="release__meta">
+          <span class="release__tag mono">current</span>
+          <span class="release__date mono">Jan 2026 — Present</span>
+        </div>
+        <div class="release__body">
+          <h3>Software Developer II <span class="release__org">· Optum</span></h3>
+          <p class="release__loc">Texas, United States</p>
+          <ul>
+            <li>Migrated 3 core backend services from Java to Go, cutting infrastructure cost ~20% and dropping average response latency from ~280ms to sub-150ms under peak load.</li>
+            <li>Shipped full-stack features end to end across Spring Boot/Go backends and React/Angular frontends, from system design through production deploy.</li>
+            <li>Containerized and orchestrated services with Docker and Kubernetes for zero-downtime rollouts across environments.</li>
+            <li>Reduced API response times 15–20% via Redis caching, async processing, and PostgreSQL query tuning.</li>
+            <li>Resolved 5+ high-priority production incidents through root-cause analysis, improving MTTR.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="release">
+        <div class="release__meta">
+          <span class="release__tag mono">v2</span>
+          <span class="release__date mono">Jan 2024 — Dec 2025</span>
+        </div>
+        <div class="release__body">
+          <h3>FullStack Engineer <span class="release__org">· United Airlines</span></h3>
+          <p class="release__loc">Chicago, IL</p>
+          <ul>
+            <li>Designed 20+ reusable Angular UI components, cutting feature delivery time ~20%.</li>
+            <li>Built and maintained full-stack features in Java, Spring Boot, Angular, and TypeScript for enterprise-scale applications.</li>
+            <li>Scaled Spring Boot microservices handling 100K+ daily transactions, raising API throughput up to 30% through caching, async processing, and concurrency tuning.</li>
+            <li>Integrated Apache Kafka for event-driven communication, improving service decoupling and fault tolerance.</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="release">
+        <div class="release__meta">
+          <span class="release__tag mono">v1</span>
+          <span class="release__date mono">Dec 2020 — Nov 2022</span>
+        </div>
+        <div class="release__body">
+          <h3>Software Engineer <span class="release__org">· PepsiCo India</span></h3>
+          <p class="release__loc">Hyderabad, India</p>
+          <ul>
+            <li>Built and maintained RESTful APIs for warehouse inventory and supply-chain workflows integrated with ERP systems.</li>
+            <li>Supported migration of legacy Java modules to Go microservices, improving startup time and memory footprint.</li>
+            <li>Implemented OAuth2 and RBAC to secure API access for 200+ operators across 50+ warehouses.</li>
+            <li>Optimized PostgreSQL and MySQL queries through indexing and rewrites, cutting execution time from ~420ms to ~290ms.</li>
+          </ul>
+        </div>
+      </li>
+
+    </ol>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects" aria-label="Projects">
+    <div class="section__head">
+      <span class="eyebrow mono">// running_services</span>
+      <h2>Projects</h2>
+    </div>
+
+    <div class="project-grid">
+
+      <article class="project-card">
+        <div class="project-card__head">
+          <h3>EventMesh</h3>
+          <p class="project-card__tagline">Distributed event-processing platform</p>
+        </div>
+
+        <svg class="project-diagram" viewBox="0 0 320 70" role="img" aria-label="Producer to Kafka to consumer group to PostgreSQL data flow diagram">
+          <line x1="30" y1="35" x2="95" y2="35" class="diagram-line"/>
+          <line x1="135" y1="35" x2="195" y2="35" class="diagram-line"/>
+          <line x1="235" y1="35" x2="290" y2="35" class="diagram-line"/>
+          <circle cx="30" cy="35" r="14" class="diagram-node"/>
+          <rect x="105" y="18" width="60" height="34" rx="4" class="diagram-node"/>
+          <circle cx="215" cy="35" r="14" class="diagram-node diagram-node--accent"/>
+          <rect x="255" y="18" width="55" height="34" rx="4" class="diagram-node"/>
+          <text x="30" y="58" class="diagram-label mono">producer</text>
+          <text x="135" y="14" class="diagram-label mono">kafka</text>
+          <text x="215" y="58" class="diagram-label mono">workers</text>
+          <text x="282" y="14" class="diagram-label mono">postgres</text>
+        </svg>
+
+        <p class="project-card__desc">
+          High-throughput event pipeline in Go with consumer groups, retries, dead-letter queues,
+          and idempotent message handling. Concurrent workers, Redis caching, and Kubernetes
+          deployment keep it fault-tolerant under load.
+        </p>
+        <ul class="tag-list">
+          <li class="mono">Go</li><li class="mono">Kafka</li><li class="mono">PostgreSQL</li><li class="mono">Redis</li><li class="mono">Kubernetes</li>
+        </ul>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card__head">
+          <h3>IncidentAI</h3>
+          <p class="project-card__tagline">AI-assisted production incident analyzer</p>
+        </div>
+
+        <svg class="project-diagram" viewBox="0 0 320 70" role="img" aria-label="Traces and logs into vector retrieval into LLM into incident summary diagram">
+          <line x1="30" y1="35" x2="95" y2="35" class="diagram-line"/>
+          <line x1="135" y1="35" x2="195" y2="35" class="diagram-line"/>
+          <line x1="235" y1="35" x2="290" y2="35" class="diagram-line"/>
+          <rect x="10" y="18" width="45" height="34" rx="4" class="diagram-node"/>
+          <circle cx="135" cy="35" r="18" class="diagram-node diagram-node--accent"/>
+          <rect x="200" y="18" width="45" height="34" rx="4" class="diagram-node"/>
+          <circle cx="300" cy="35" r="14" class="diagram-node"/>
+          <text x="12" y="14" class="diagram-label mono">traces</text>
+          <text x="135" y="14" class="diagram-label mono">pgvector</text>
+          <text x="205" y="14" class="diagram-label mono">LLM</text>
+          <text x="300" y="58" class="diagram-label mono">summary</text>
+        </svg>
+
+        <p class="project-card__desc">
+          Correlates logs, traces, and errors to surface likely root causes for production incidents.
+          Combines OpenTelemetry data with pgvector retrieval and LLM analysis to generate
+          remediation suggestions and searchable historical context.
+        </p>
+        <ul class="tag-list">
+          <li class="mono">Go</li><li class="mono">Kafka</li><li class="mono">pgvector</li><li class="mono">LLM APIs</li><li class="mono">OpenTelemetry</li>
+        </ul>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills" aria-label="Technical skills">
+    <div class="section__head">
+      <span class="eyebrow mono">// config</span>
+      <h2>Skills</h2>
+    </div>
+
+    <pre class="config-block mono" tabindex="0"><code><span class="c-comment"># stack.yaml</span>
+<span class="c-key">languages:</span>       <span class="c-str">[Go, Java, SQL]</span>
+<span class="c-key">backend_apis:</span>    <span class="c-str">[Spring Boot, Gin, REST, gRPC, Microservices]</span>
+<span class="c-key">distributed:</span>     <span class="c-str">[Kafka, Event-Driven Architecture, Concurrency,</span>
+                  <span class="c-str">Async Processing, Circuit Breakers, Idempotency]</span>
+<span class="c-key">cloud_devops:</span>    <span class="c-str">[AWS, Docker, Kubernetes, CI/CD, Git]</span>
+<span class="c-key">databases:</span>       <span class="c-str">[PostgreSQL, MySQL, Redis, pgvector]</span>
+<span class="c-key">observability:</span>   <span class="c-str">[Prometheus, Grafana, CloudWatch, OpenTelemetry]</span>
+<span class="c-key">core:</span>            <span class="c-str">[System Design, Scalability, Performance Optimization,</span>
+                  <span class="c-str">High Availability, OAuth2, RBAC]</span></code></pre>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section" id="education" aria-label="Education">
+    <div class="section__head">
+      <span class="eyebrow mono">// build_history</span>
+      <h2>Education</h2>
+    </div>
+    <div class="edu-card">
+      <div>
+        <h3>Master of Science in Information Technology</h3>
+        <p class="edu-card__focus">Cybersecurity Focus · Atlantis University, Miami, FL</p>
+      </div>
+      <span class="release__date mono">December 2024</span>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section--contact" id="contact" aria-label="Contact">
+    <div class="section__head">
+      <span class="eyebrow mono">// endpoint</span>
+      <h2>Contact</h2>
+    </div>
+
+    <div class="api-card">
+      <div class="api-card__row api-card__row--title">
+        <span class="method mono">POST</span>
+        <span class="mono">/contact</span>
+      </div>
+      <p class="api-card__desc">Reach out for backend roles, systems work, or a conversation about distributed architecture.</p>
+      <dl class="api-fields">
+        <div class="api-fields__row">
+          <dt class="mono">email</dt>
+          <dd><a href="mailto:dheeraj.backend@yahoo.com">dheeraj.backend@yahoo.com</a></dd>
+        </div>
+        <div class="api-fields__row">
+          <dt class="mono">phone</dt>
+          <dd><a href="tel:+17869739765">+1 786-973-9765</a></dd>
+        </div>
+        <div class="api-fields__row">
+          <dt class="mono">linkedin</dt>
+          <dd><a href="https://linkedin.com/in/dheeraj-b" target="_blank" rel="noopener">linkedin.com/in/dheeraj-b</a></dd>
+        </div>
+        <div class="api-fields__row">
+          <dt class="mono">github</dt>
+          <dd><a href="https://github.com/rajbolamala-star" target="_blank" rel="noopener">github.com/rajbolamala-star</a></dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p class="mono">© <span id="year"></span> Dheeraj B — built with Go-brained attention to detail.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
